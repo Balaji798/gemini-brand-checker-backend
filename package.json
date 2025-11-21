@@ -1,0 +1,25 @@
+{
+  "name": "gemini-brand-mention-checker",
+  "version": "1.0.0",
+  "description": "Gemini Brand Mention Checker",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && nodemon dist/app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Balaji Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "csv-stringify": "^6.6.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.11"
+  }
+}
